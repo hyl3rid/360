@@ -1,0 +1,62 @@
+.block,
+.block-drag,
+.block-animated-box {
+    height: 300px;
+    width: 300px;
+    border: 1px solid blue;
+    position: relative;
+}
+
+.hidden-text,
+.radio-one-hidden-text,
+.radio-two-hidden-text {
+    display: none;
+}
+
+.red-block {
+    border: 1px solid red;
+    height: 100px;
+    position: absolute;
+    width: 100px;
+    top: 60%;
+    left: 30%;
+}
+
+.aqua-block {
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+}
+
+.reveal {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.output {
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.green-box {
+    height: 25px;
+    width: 50px;
+    background-color: yellowgreen;
+}
+
+.blue-box {
+    height: 25px;
+    width: 50px;
+    background-color: blueviolet;
+}
